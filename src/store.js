@@ -1,6 +1,6 @@
 import { createStore, applyMiddleware, combineReducers } from "redux";
 
-import sample from "./modules/sample";
+import sample from "./reducer/sample";
 
 const reducer = combineReducers({sample})
 
