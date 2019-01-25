@@ -1,8 +1,5 @@
-import { createStore, applyMiddleware, combineReducers } from "redux";
-
-import sample from "./reducer/sample";
-
-const reducer = combineReducers({sample})
+import { createStore, applyMiddleware } from "redux";
+import reducer from "./reducer/";
 
 // store
 const myMiddleware = store => next => act => {
